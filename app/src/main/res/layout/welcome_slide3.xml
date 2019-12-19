@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bacground_logo">
+    android:background="@drawable/bgsplash3">
 
     <LinearLayout
         android:layout_width="334dp"
@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sudah Mulai Lapar? "
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/white"
             android:textSize="25dp"
             android:textStyle="bold" />
 
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:text="Kami Sedang Menyusun Daftar Untuk Anda, Pilih Makanan Favoritmu"
             android:textAlignment="center"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/white"
             android:textSize="16dp" />
 
     </LinearLayout>
