@@ -15,6 +15,8 @@ import com.example.proyek.fragments.userFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 
+
+
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
     @Override
@@ -44,10 +46,10 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             case R.id.home:
                 fragment = new homeFragment();
                 break;
-            case R.id.pizza:
+            case R.id.makanan:
                 fragment = new makananFragment();
                 break;
-            case R.id.minum:
+            case R.id.favorit:
                 fragment = new locFragment();
                 break;
             case R.id.user:
@@ -56,4 +58,5 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         }
         return loadFragment(fragment);
     }
+
 }

@@ -12,10 +12,10 @@
     <item android:id="@+id/home"
         android:title=""
         android:icon="@drawable/file" />
-    <item android:id="@+id/pizza"
+    <item android:id="@+id/makanan"
         android:title=""
         android:icon="@drawable/file_1_" />
-    <item android:id="@+id/minum"
+    <item android:id="@+id/favorit"
         android:title=""
         android:icon="@drawable/logo" />
     <item android:id="@+id/user"
