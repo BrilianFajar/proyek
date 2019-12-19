@@ -2,27 +2,36 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/dot_light_screen4">
+    android:background="@drawable/bacground_logo">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="351dp"
+        android:layout_height="405dp"
         android:layout_centerInParent="true"
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="225dp"
-            android:layout_height="102dp"
-            android:src="@drawable/angkut" />
+            android:layout_width="311dp"
+            android:layout_height="239dp"
+            android:src="@drawable/splash1" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="wisata museum angkut"
+            android:text="Applikasi Kuliner Malang"
             android:textColor="@android:color/black"
             android:textSize="@dimen/slide_title"
             android:textStyle="bold" />
 
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Selamat Datang di Aplikasi Kuliner"
+            android:textColor="@android:color/black"
+            android:textSize="16dp" />
+
     </LinearLayout>
+
 </RelativeLayout>

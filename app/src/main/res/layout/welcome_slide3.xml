@@ -2,27 +2,36 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@drawable/bacground_logo">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="334dp"
+        android:layout_height="396dp"
         android:layout_centerInParent="true"
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="161dp"
-            android:layout_height="120dp"
-            android:src="@drawable/sengkaling2" />
+            android:layout_width="320dp"
+            android:layout_height="252dp"
+            android:src="@drawable/splash3" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Wisata Sengkaling"
+            android:text="Sudah Mulai Lapar? "
             android:textColor="@android:color/black"
-            android:textSize="@dimen/slide_title"
+            android:textSize="25dp"
             android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kami Sedang Menyusun Daftar Untuk Anda, Pilih Makanan Favoritmu"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16dp" />
 
     </LinearLayout>
 
