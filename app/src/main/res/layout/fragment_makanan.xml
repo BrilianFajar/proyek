@@ -7,6 +7,18 @@
     android:background="@drawable/bgmakanan"
     tools:context=".activities.MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="85dp"
+        android:layout_height="71dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/ind" />
+
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView2"
         android:layout_width="400dp"
