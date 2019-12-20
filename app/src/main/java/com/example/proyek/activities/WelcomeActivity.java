@@ -96,6 +96,7 @@ public class WelcomeActivity extends AppCompatActivity {
         return viewPager.getCurrentItem() + i;
     }
 
+
     private void launchHomeScreen() {
         startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
         finish();

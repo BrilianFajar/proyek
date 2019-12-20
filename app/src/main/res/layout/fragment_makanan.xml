@@ -35,18 +35,17 @@
             <ImageView
                 android:id="@+id/p1"
                 android:layout_width="122dp"
-                android:layout_height="match_parent"
+                android:layout_height="182dp"
                 android:src="@drawable/gadogado1"
                 app:layout_constraintBottom_toTopOf="@+id/guideline2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/desc1"
-                app:layout_constraintVertical_bias="0.744"
-                />
+                app:layout_constraintVertical_bias="0.744" />
 
             <ImageView
                 android:id="@+id/p2"
-                android:layout_width="137dp"
-                android:layout_height="match_parent"
+                android:layout_width="141dp"
+                android:layout_height="167dp"
                 android:src="@drawable/nasigoreng1"
                 app:layout_constraintBottom_toTopOf="@+id/guideline2"
                 app:layout_constraintStart_toEndOf="@+id/imageView"
@@ -55,8 +54,8 @@
 
             <ImageView
                 android:id="@+id/p3"
-                android:layout_width="152dp"
-                android:layout_height="201dp"
+                android:layout_width="138dp"
+                android:layout_height="250dp"
                 android:layout_weight="1"
                 android:src="@drawable/rendang1"
                 app:layout_constraintBottom_toTopOf="@+id/guideline2"
@@ -66,8 +65,8 @@
 
             <ImageView
                 android:id="@+id/p4"
-                android:layout_width="152dp"
-                android:layout_height="239dp"
+                android:layout_width="140dp"
+                android:layout_height="245dp"
                 android:src="@drawable/sopbuntut1"
                 app:layout_constraintBottom_toTopOf="@+id/guideline2"
                 app:layout_constraintStart_toEndOf="@id/imageView12"
@@ -76,8 +75,8 @@
 
             <ImageView
                 android:id="@+id/p5"
-                android:layout_width="129dp"
-                android:layout_height="match_parent"
+                android:layout_width="125dp"
+                android:layout_height="167dp"
                 android:src="@drawable/tempe1"
                 app:layout_constraintBottom_toTopOf="@+id/guideline2"
                 app:layout_constraintStart_toEndOf="@id/imageView13"
@@ -86,8 +85,8 @@
 
             <ImageView
                 android:id="@+id/p6"
-                android:layout_width="137dp"
-                android:layout_height="171dp"
+                android:layout_width="141dp"
+                android:layout_height="182dp"
                 android:src="@drawable/soto1"
                 app:layout_constraintBottom_toTopOf="@+id/guideline2"
                 app:layout_constraintStart_toEndOf="@id/imageView12"
@@ -96,8 +95,8 @@
 
             <ImageView
                 android:id="@+id/p7"
-                android:layout_width="126dp"
-                android:layout_height="match_parent"
+                android:layout_width="124dp"
+                android:layout_height="224dp"
                 android:src="@drawable/sate1"
                 app:layout_constraintBottom_toTopOf="@+id/guideline2"
                 app:layout_constraintStart_toEndOf="@id/imageView13"
@@ -124,7 +123,7 @@
 
             <ImageView
                 android:id="@+id/r1"
-                android:layout_width="120dp"
+                android:layout_width="121dp"
                 android:layout_height="match_parent"
                 android:src="@drawable/bahnxeo1"
                 app:layout_constraintBottom_toTopOf="@+id/guideline3"
@@ -133,8 +132,8 @@
 
             <ImageView
                 android:id="@+id/r2"
-                android:layout_width="145dp"
-                android:layout_height="202dp"
+                android:layout_width="144dp"
+                android:layout_height="231dp"
                 android:src="@drawable/beefbulgogi1"
                 app:layout_constraintBottom_toTopOf="@+id/guideline3"
                 app:layout_constraintStart_toEndOf="parent"
@@ -143,7 +142,7 @@
             <ImageView
                 android:id="@+id/r3"
                 android:layout_width="132dp"
-                android:layout_height="199dp"
+                android:layout_height="220dp"
                 android:src="@drawable/beeflak1"
                 app:layout_constraintBottom_toTopOf="@+id/guideline3"
                 app:layout_constraintStart_toEndOf="parent"
@@ -151,8 +150,8 @@
 
             <ImageView
                 android:id="@+id/r4"
-                android:layout_width="125dp"
-                android:layout_height="match_parent"
+                android:layout_width="129dp"
+                android:layout_height="235dp"
                 android:src="@drawable/nasipisang1"
                 app:layout_constraintBottom_toTopOf="@+id/guideline3"
                 app:layout_constraintStart_toEndOf="parent"
@@ -160,8 +159,8 @@
 
             <ImageView
                 android:id="@+id/r5"
-                android:layout_width="125dp"
-                android:layout_height="match_parent"
+                android:layout_width="144dp"
+                android:layout_height="222dp"
                 android:src="@drawable/yaki1"
                 app:layout_constraintBottom_toTopOf="@+id/guideline3"
                 app:layout_constraintStart_toEndOf="parent"
@@ -185,7 +184,7 @@
 
             <ImageView
                 android:id="@+id/imageView11"
-                android:layout_width="132dp"
+                android:layout_width="122dp"
                 android:layout_height="242dp"
                 android:src="@drawable/sopbuntut1"
                 app:layout_constraintBottom_toTopOf="@+id/guideline4"
@@ -197,8 +196,8 @@
 
             <ImageView
                 android:id="@+id/imageView12"
-                android:layout_width="143dp"
-                android:layout_height="199dp"
+                android:layout_width="154dp"
+                android:layout_height="235dp"
                 android:layout_marginBottom="8dp"
                 android:src="@drawable/padthai1"
                 app:layout_constraintBottom_toTopOf="@+id/guideline4"
@@ -208,8 +207,8 @@
 
             <ImageView
                 android:id="@+id/imageView13"
-                android:layout_width="137dp"
-                android:layout_height="199dp"
+                android:layout_width="122dp"
+                android:layout_height="215dp"
                 android:layout_marginBottom="8dp"
                 android:src="@drawable/sate1"
                 app:layout_constraintBottom_toTopOf="@+id/guideline4"
@@ -219,8 +218,8 @@
 
             <ImageView
                 android:id="@+id/imageView14"
-                android:layout_width="133dp"
-                android:layout_height="186dp"
+                android:layout_width="142dp"
+                android:layout_height="248dp"
                 android:layout_marginBottom="8dp"
                 android:src="@drawable/hainan1"
                 app:layout_constraintBottom_toTopOf="@+id/guideline4"

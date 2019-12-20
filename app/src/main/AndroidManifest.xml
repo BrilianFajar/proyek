@@ -9,6 +9,8 @@
         android:roundIcon="@drawable/splash3"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".activities.pecel"></activity>
+        <activity android:name=".activities.kupang" />
         <activity android:name=".activities.WelcomeActivity" />
         <activity android:name=".activities.SplashActivity">
             <intent-filter>
@@ -17,8 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.MainActivity"></activity>
+        <activity android:name=".activities.MainActivity" />
     </application>
-
 
 </manifest>
